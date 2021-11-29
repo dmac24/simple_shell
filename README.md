@@ -64,7 +64,7 @@ $
 
 None registered so far
 
-### Authors
+## Authors
 
 * Maycol David Roa [@maycolroa](https://github.com/maycolroa)
 * Diana Marcela Ayala [@dmac24](https://github.com/dmac24)
