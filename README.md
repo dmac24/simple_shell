@@ -1,3 +1,5 @@
+poner la img
+
 # SIMPLE_SHELL
 
 ## Description
@@ -59,6 +61,12 @@ hsh main.c shell.c test_ls_2
 $
 ```
 ## Features
+.....
+
+## Example
+
+.....
+añadir casos de salida
 
 ## Bugs
 
