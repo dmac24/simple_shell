@@ -7,7 +7,9 @@ This project is a simple version of the linux shell made for Holberton School. T
 
 Simple_shell is designed to run in the Ubuntu 14.04 and to be compiled using the GNU compiler collection v. gcc 4.8.4.
 
-## General Flow Chart
+## Structure
+
+General Flow Chart:
 
 
 
@@ -62,7 +64,7 @@ $
 
 None registered so far
 
-### Contributors
+### Authors
 
 * Maycol David Roa [@maycolroa](https://github.com/maycolroa)
 * Diana Marcela Ayala [@dmac24](https://github.com/dmac24)
