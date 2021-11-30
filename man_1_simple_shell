@@ -1,0 +1,84 @@
+Description
+
+     the function we develop allows the analysis of a chain
+     that is analyzed end to end and that depending on the
+     special characters found returns the string in a format
+     stipulated
+
+     The following table lists the characters used for
+     chain analysis
+
+     Symbols Format type
+
+        % c prints a single character
+        % d prints a decimal number (base 10)
+        % i prints a base 10 integer
+        % s prints a character string
+        %% prints a percent sign 
+        
+        SYNOPSYS
+        
+    .B Print ARGUMENT(s) according to FORMAT.
+
+
+    .B Interpreted sequences are:
+
+
+    .B %c:
+     Prints the character passed as parameter.
+
+    .B %s:
+     Prints text string finished with null character.
+
+    .B %d:
+     Converts argument to signed decimal notation and print it.
+
+    .B %i:
+     Converts argument to unsigned decimal notation and print it.
+
+    .B %%
+     Prints a single '%' character
+
+    .B %b
+     Convert the unsigned argument to a binary and print it.
+
+    .B %u
+     Prints the integer unsigned decimal conversion.
+
+    .B %o
+     Prints the integer unsigned octal conversion.
+
+    .B %x
+     Unsigned hexadecimal conversion in lowercase form.
+
+    .B %X
+     Unsigned hexadecimal conversion uppercase  form.	
+
+    .B %r
+     prints the reversed string.
+
+    .B %R
+     print a string in Rot 13.
+
+         EXAMPLES
+
+        _printf("i am a character [%c]", 'J');
+        $ i am a character [J]
+
+        _printf("i am a integrer [%d]", 1);
+        $ i am a integer [1]
+
+        _printf("i am other integrer [%i]", 2);
+        $ i am other integer [2]
+
+        _printf("String: [%s]", "I am a string !");
+        $ String: [I am a string !]
+        
+        _printf("i am a null or percent: [%%]", "I am percent!");
+        $ null: [I am a percent!]        
+        
+```
+ AUTHOR(S)
+* Maycol David Roa [@maycolroa](https://github.com/maycolroa)
+* Diana Marcela Ayala [@dmac24](https://github.com/dmac24)
+```
