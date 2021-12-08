@@ -38,10 +38,10 @@ Interactive mode:
 
 ```
 $ ./hsh
-($) /bin/ls
+#holbies$ ls
 hsh main.c shell.c
-($)
-($) exit
+#holbies$
+#holbies$ exit
 $
 ```
 
