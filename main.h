@@ -23,7 +23,6 @@ int _fork(char **Arg_str, int ct_output);
 int comp_Arg(char **Arg_str, int ct_output);
 void _signal(int sig);
 char *rd_row(void);
-void _signal(int sig);
 char *get_env(void);
 int _strncmp(char *string_1, char *string_2, int len);
 char *_strcpy(char *dest, char *src);
