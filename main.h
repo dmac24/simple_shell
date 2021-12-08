@@ -9,8 +9,6 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 #define DELIM " ,!¡¿?\'\"\n\t"
-#define DELIMP ":"
-#define DELIMT "/"
 #define STDOUT STDOUT_FILENO
 #define STDIN STDIN_FILENO
 #define STDERR STDERR_FILENO
