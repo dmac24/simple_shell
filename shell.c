@@ -14,8 +14,6 @@ int main(void)
 
 	while (1)
 	{
-		signal(SIGINT, _signal);
-
 		write(STDOUT, "#holbies$ ", 9);
 
 		row = rd_row();
