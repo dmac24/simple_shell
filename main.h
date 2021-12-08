@@ -21,6 +21,7 @@ int built_in(char **Arg_str, int ct_output, char *row);
 int Run(char **Arg_str, int ct_output, char *row);
 int _fork(char **Arg_str, int ct_output);
 int comp_Arg(char **Arg_str, int ct_output);
+void _signal(int sig);
 char *rd_row(void);
 void _signal(int sig);
 char *get_env(void);
