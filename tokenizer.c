@@ -19,7 +19,6 @@ char **tokenizer(char *BUFF)
 
 	Arg_str = malloc(sizeof(char *) * size);
 
-	i = 0;
 
 	token = strtok(BUFF, DELIM);
 	Arg_str[i] = token;
