@@ -36,9 +36,9 @@ Files|Description|Functions
 [get_path.c] | function that checks if the command exists | char *get_env(void)
 [is_path.c] | function that checks if the path | int comp_Arg(char **Arg_str, int ct_output)
 [main.h] | function library | 
-[pid.c | function that check fork | int _fork(char **Arg_str, int ct_output)
-[shell.c | function that front-end | int main(void)
-[tokenizer.c | tokenization function | char **tokenizer(char *BUFF)
+[pid.c] | function that check fork | int _fork(char **Arg_str, int ct_output)
+[shell.c] | function that front-end | int main(void)
+[tokenizer.c] | tokenization function | char **tokenizer(char *BUFF)
 
 
 ## Installation
@@ -62,19 +62,19 @@ Non-interactive mode:
 
 ## Example
 
-### command ls 
+### Command ls 
 
 ![ls](https://user-images.githubusercontent.com/85509333/145380349-684a106c-0cc0-42d9-aec7-f06098978f91.png)
 
-### command ls-l
+### Command ls-l
 
 ![ls  l](https://user-images.githubusercontent.com/85509333/145380880-f2c2916b-2c69-4324-a7e2-5214c4d4efa3.png)
 
-### command env
+### Command env
 
 ![env](https://user-images.githubusercontent.com/85509333/145381243-cc04ac72-c7b1-4218-9750-9ff7300b9c96.png)
 
-## manual 
+## Manual 
 
 ### To enter the manual 
 ```
