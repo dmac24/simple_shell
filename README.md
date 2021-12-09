@@ -1,6 +1,9 @@
-poner la img
+
+![logo](https://user-images.githubusercontent.com/85509333/145334215-1a18b1d0-b75b-4b6b-8b01-dd06dd86d314.jpg)
 
 # SIMPLE_SHELL
+
+![shell](https://user-images.githubusercontent.com/85509333/145334324-6b89fa02-7518-4a52-a15e-546c7b3e0611.jpeg)
 
 ## Description
 This project is a simple version of the linux shell made for Holberton School. This simple_shell is a command line interpreter, created using the C programming Language and it can do many functionalities that a real shell does.
@@ -11,7 +14,9 @@ Simple_shell is designed to run in the Ubuntu 14.04 and to be compiled using the
 
 ## Structure
 
-General Flow Chart:
+### General Flow Chart:
+
+![flow chart](https://user-images.githubusercontent.com/85509333/145333825-159e5e24-3a86-4a9b-a482-82b9d5051aed.png)
 
 
 
@@ -19,11 +24,12 @@ General Flow Chart:
 
 Files|Description|Functions
 --|--|--
-[.c](.) | |
-[.c](.)| |
-[main.h](.main.h)| Header Principal | Protypes
-[README.md](.README.md)| Description project |
-[man_3_printf](.man_3_printf)| Manual page | 
+[aux_compare.c] | function that compares strings | -int _strncmp -int _strcmp
+[aux_concatenate.c] |function that concatenates | -char *_strcat(char *dest, char *src)
+[aux_copy.c] | function that copy string | char *_strcpy(char *dest, char *src)
+[aux_counts.c] | function that count string | int _strlen(char *a)
+[aux_e.c] | function that prints error | void _error(char *CMD)
+[built-in.c] | function that checks if the env exit command exists | int built_in(char **Arg_str, int ct_output, char *row)
 
 ## Installation
 
