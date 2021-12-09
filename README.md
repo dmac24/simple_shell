@@ -30,6 +30,16 @@ Files|Description|Functions
 [aux_counts.c] | function that count string | int _strlen(char *a)
 [aux_e.c] | function that prints error | void _error(char *CMD)
 [built-in.c] | function that checks if the env exit command exists | int built_in(char **Arg_str, int ct_output, char *row)
+[check_built-in.c] | function that checks if the bultins | int Run(char **Arg_str, int ct_output, char *row)
+[check_built-in.c] | function that checks if the bultins | int Run(char **Arg_str, int ct_output, char *row)
+[check_line.c] | function that checks line | char *rd_row(void)
+[get_path.c] | function that checks if the command exists | char *get_env(void)
+[is_path.c] | function that checks if the path | int comp_Arg(char **Arg_str, int ct_output)
+[main.h] | function library | 
+[pid.c | function that check fork | int _fork(char **Arg_str, int ct_output)
+[shell.c | function that front-end | int main(void)
+[tokenizer.c | tokenization function | char **tokenizer(char *BUFF)
+
 
 ## Installation
 
@@ -37,48 +47,42 @@ Files|Description|Functions
 * Change directories into the repository: cd simple_shell
 * Compile: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 * Run the shell in interactive mode or non-interactive mode.
+* ./hsh
 
 ## Testing the Program
 
 Interactive mode:
 
-```
-$ ./hsh
-#holbies$ ls
-hsh main.c shell.c
-#holbies$
-#holbies$ exit
-$
-```
+
+![Interactive mode_](https://user-images.githubusercontent.com/85509333/145378389-cbfaa40a-89df-4d08-9cc3-1c4b1fa8dfc5.png)
 
 Non-interactive mode:
 
-```
-$ echo "/bin/ls" | ./hsh
-hsh main.c shell.c test_ls_2
-$
-$ cat test_ls_2
-/bin/ls
-/bin/ls
-$
-$ cat test_ls_2 | ./hsh
-hsh main.c shell.c test_ls_2
-hsh main.c shell.c test_ls_2
-$
-```
-## Features
-.....
+![no interactive](https://user-images.githubusercontent.com/85509333/145379653-97016dd6-aed9-44c4-817a-d73c723f33e5.png)
 
 ## Example
 
-.....
-añadir casos de salida
+### command ls 
 
-## Bugs
+![ls](https://user-images.githubusercontent.com/85509333/145380349-684a106c-0cc0-42d9-aec7-f06098978f91.png)
 
-None registered so far
+### command ls-l
+
+![ls  l](https://user-images.githubusercontent.com/85509333/145380880-f2c2916b-2c69-4324-a7e2-5214c4d4efa3.png)
+
+### command env
+
+![env](https://user-images.githubusercontent.com/85509333/145381243-cc04ac72-c7b1-4218-9750-9ff7300b9c96.png)
+
+## manual 
+
+### To enter the manual 
+```
+man -l man_1_simple_shell
+```
 
 ## Authors
-
+```
 * Maycol David Roa [@maycolroa](https://github.com/maycolroa)
 * Diana Marcela Ayala [@dmac24](https://github.com/dmac24)
+```
